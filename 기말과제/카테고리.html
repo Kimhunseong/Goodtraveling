@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+   <meta charset="UTF-8">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Pacifico&family=Noto+Serif+KR:wght@700&family=Dancing+Script:wght@600&family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
+   <title>카테고리</title>
+</head>
+<body>
+   <div id="navbar">
+      <a  id="logo" href="index.html">
+         <img src="https://i.postimg.cc/cCvN6YG9/image.png" alt="" >
+      </a>
+      <ul id="menu">
+         <li><a href="index.html">홈</a></li>
+         <li><a href="인기.html">인기</a></li>
+         <li><a href="카테고리.html">카테고리</a></li>
+         <li><a href="인기.html">추천</a></li>
+      </ul>
+   </div>
+   <div class="item-title">
+      <h1>계절별 카테고리</h1>
+      <div class="underline"></div>
+   </div>
+   <div class="content-box">
+      <div  class="content"><a href="계절/봄.html">봄</a></div>
+      <div  class="content"><a href="계절/여름.html">여름</a></div>
+      <div  class="content"><a href="계절/가을.html">가을</a></div>
+      <div  class="content"><a href="계절/겨울.html">겨울</a></div>
+   </div>
+   <div class="item-title">
+      <h1>목적별 카테고리</h1>
+      <div class="underline"></div>
+   </div>
+   <div class="content-box2">
+      <div  class="content"><a href="목적/자연경치.html">자연/경치</a></div>
+      <div  class="content"><a href="목적/레저.html">레저</a></div>
+      <div  class="content"><a href="목적/휴식힐링.html">휴식/힐링</a></div>
+      <div  class="content"><a href="목적/드라이브.html">드라이브</a></div>
+      <div  class="content"><a href="">역사/문화</a></div>
+      <div  class="content"><a href="">미식</a></div>
+      <div  class="content"><a href="">전통시장</a></div>
+      <div  class="content"><a href="">체험/학습</a></div>
+      <div  class="content"><a href="">바다여행</a></div>
+      <div  class="content"><a href="">당일치기</a></div>
+      <div  class="content"><a href="">야경명소</a></div>
+      <div  class="content"><a href="">사진/영상</a></div>
+   </div>
+<style>
+   * {
+      margin: 0;
+      padding: 0;
+   }
+   body {
+      background-color: #1C1C1C;
+   }
+   .content-box2 {
+      width: 1140px;
+      height: 154px;
+      background-color: #2E2E2E;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+      margin-bottom: 50px;
+   }
+   .content-box2 .content a {
+      color: white;
+      text-decoration: none;
+   }
+   .underline {
+      box-sizing: border-box;
+      width: 1150px;
+      height: 2px;
+      background-color: white;
+   }
+   h1 {
+      font-size: 24px;
+      color: #FAFAFA;  
+   }
+   .item-title{
+      text-align: left;
+      margin-top: 60px;
+      width: 1150px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 50px;
+      height: 28px;
+      vertical-align: middle;
+   }
+   .content-box .content a {
+      color: white;
+      text-decoration: none;
+   }
+   .content {
+      float: left;
+      width: 285px;
+      line-height: 50px;
+      text-align: center;
+      display: inline;
+      border: 1px solid white;
+   }
+   .content-box {
+      width: 1140px;
+      height: 52px;
+      background-color: #2E2E2E;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+      margin-bottom: 50px;
+   }
+   .content:hover {
+      background-color: #D8D8D8;
+   }
+   #navbar {
+      height: 76px;
+      background-color: black;
+   }
+   #logo {
+      float: left;
+      line-height: 76px;
+   }
+   #navbar #logo img {
+      height: 40px;
+      vertical-align: middle;
+      padding-left: 30px;
+   }
+   #menu {
+      float: right;
+      list-style: none;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 0;
+   }
+   #menu li {
+      float: left;
+      vertical-align: middle;
+      height: 40px;
+   }
+   #menu li a {
+      padding-left: 30px;
+      padding-right: 30px;
+      line-height: 76px;
+      text-decoration: none;
+      display: block;
+      color: #848484;
+   }
+   #menu li a:hover {
+      background-color: #eeeeee;
+   }
+</style>
+</body>
+</html>
